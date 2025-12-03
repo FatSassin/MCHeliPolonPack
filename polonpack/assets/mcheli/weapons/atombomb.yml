@@ -1,0 +1,22 @@
+DisplayName: Atomic Bomb
+Type: bomb
+Ballistics:
+  Acceleration: 0.1
+  AccelerationInWater: 1.0
+  Gravity: -0.03
+  GravityInWater: -0.03
+  VelocityInWater: 0.999
+NTM:
+  PayloadType: NUKE    
+Explosion:
+  Power: 100
+Ammo:
+  ReloadTime: 150
+  MagSize: 1
+  MaxAmmo: 1
+  ResupplyCount: 1
+  AmmoItems:
+  - Count: 1
+    Name: hbm:det_nuke
+    Meta: 0
+FireCooldown: 60

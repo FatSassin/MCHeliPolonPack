@@ -1,0 +1,22 @@
+DisplayName: Strategic Nuclear Bomb
+Type: bomb
+Ballistics:
+  Acceleration: 0.1
+  AccelerationInWater: 1.0
+  Gravity: -0.03
+  GravityInWater: -0.03
+  VelocityInWater: 0.999
+NTM:
+  PayloadType: NUKE    
+Explosion:
+  Power: 25
+Ammo:
+  ReloadTime: 600
+  MagSize: 10
+  MaxAmmo: 20
+  ResupplyCount: 
+  AmmoItems:
+  - Count: 10
+    Name: hbm:det_nuke
+    Meta: 0
+FireCooldown: 60
