@@ -7,40 +7,26 @@ Ballistics:
   Gravity: -0.01
   GravityInWater: 0.0
   VelocityInWater: 0.999
-  Piercing: 1
 Sound:
   Volume: 3.0
   Pitch: 0.1
   Locations:
     Fire: mcheli:bomb_snd
 NTM:
-  PayloadType: MININUKE
+  PayloadType: NUKE
 Explosion:
-  Power: 10
-  Flaming: true
-  ProximityFuseDist: 30.0
+  Power: 30
 Camera:
   Sight: movesight
 Ammo:
-  ReloadTime: 190
-  MagSize: 6
-  MaxAmmo: 12
-  ResupplyCount: 3
+  MagSize: 1
+  MaxAmmo: 2
+  ResupplyCount: 1
   AmmoItems:
-  - Count: 4
-    Name: minecraft:iron_ingot
-    Meta: 0
-  - Count: 4
-    Name: minecraft:gunpowder
-    Meta: 0
-  - Count: 4
-    Name: minecraft:redstone
-    Meta: 0
+  - Count: 1
+    Name: hbm:ammo_standard
+    Meta: 75
 FireCooldown: 160
 Render:
   BulletModel: agm154
   BombletModel: cbc
-  Smoke:
-    DisableSmoke: true
-    BulletColorInWater: '#FFFFFFFF'
-    BulletColor: '#FFFFFFFF'

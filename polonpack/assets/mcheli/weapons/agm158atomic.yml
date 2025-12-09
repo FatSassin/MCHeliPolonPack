@@ -10,31 +10,21 @@ Ballistics:
 Sound:
   Locations:
     Fire: mcheli:missile_1_snd
-  NTM:
-    PayloadType: MININUKE
+NTM:
+    PayloadType: NUKE
 Explosion:
-  Power: 20
+  Power: 50
 Camera:
   Sight: movesight
 Ammo:
-  MagSize: 4
-  MaxAmmo: 4
-  ResupplyCount: 2
+  MagSize: 1
+  MaxAmmo: 2
+  ResupplyCount: 1
   AmmoItems:
-  - Count: 3
-    Name: minecraft:iron_ingot
-    Meta: 0
-  - Count: 3
-    Name: minecraft:gunpowder
-    Meta: 0
-  - Count: 3
-    Name: minecraft:redstone
-    Meta: 0
+  - Count: 1
+    Name: hbm:bomb_caller
+    Meta: 4
 FireCooldown: 220
 Mode: 2
 Render:
   BulletModel: agm158
-  Smoke:
-    DisableSmoke: true
-    BulletColorInWater: '#FFFFFFFF'
-    BulletColor: '#FFFFFFFF'
