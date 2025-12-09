@@ -1,6 +1,6 @@
 DisplayName:
-  DEFAULT: B-2A Spirit [Nuclear armed]
-  ja_jp: B-2A スピリット
+  DEFAULT: B-2A Spirit ☢
+  ja_jp: B-2A スピリット ☢
 Category: M.A
 MaxFuel: 4800
 MaxHP: 700
@@ -35,14 +35,10 @@ Weapons:
 - Type: dummy_bay_closed
   Position: [0.0, 0.0, 0.0]
   SeatID: 2
-- Type: atombomb_b2
+- Type: mk82_b2atomic
   Position: [1.84, 2.8, -4.27]
-- Type: atombomb_b2
+- Type: mk82_b2atomic
   Position: [-1.84, 2.8, -4.27]
-- Type: atombomb_b2
-  Position: [1.84, 2.8, -8.57]
-- Type: atombomb_b2
-  Position: [-1.84, 2.8, -8.57]
 - Type: gbu38
   Position: [1.84, 2.8, -4.27]
   SeatID: 2
@@ -63,10 +59,10 @@ Weapons:
   Position: [1.84, 1.8, -6.13]
 - Type: gbu28
   Position: [-1.84, 1.8, -6.13]
-- Type: agm154
+- Type: agm154atomic
   Position: [1.84, 1.8, -6.13]
   SeatID: 2
-- Type: agm154
+- Type: agm154atomic
   Position: [-1.84, 1.8, -6.13]
   SeatID: 2
 - Type: gbu57
@@ -75,10 +71,10 @@ Weapons:
 - Type: gbu57
   Position: [-1.84, 1.8, -6.13]
   SeatID: 2
-- Type: agm158
+- Type: agm158atomic
   Position: [1.84, 1.8, -6.13]
   SeatID: 2
-- Type: agm158
+- Type: agm158atomic
   Position: [-1.84, 1.8, -6.13]
   SeatID: 2
 Seats:
@@ -128,22 +124,22 @@ Components:
   - Position: [-2.79, 1.86, -6.56]
     Rotation: [0.0, -0.04, 1.0]
     PartName: wb0
-    WeaponName: mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158
+    WeaponName: mk82_b2atomic/ gbu38 / gbu28 / agm154atomic / gbu57 /agm158atomic
     MaxRotation: -1.0
   - Position: [-0.15, 1.72, -6.56]
     Rotation: [0.0, -0.04, 1.0]
     PartName: wb1
-    WeaponName: mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158
+    WeaponName: mk82_b2atomic/ gbu38 / gbu28 / agm154atomic / gbu57 /agm158atomic
     MaxRotation: 1.0
   - Position: [2.79, 1.86, -6.56]
     Rotation: [0.0, -0.04, 1.0]
     PartName: wb2
-    WeaponName: mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158
+    WeaponName: mk82_b2atomic/ gbu38 / gbu28 / agm154atomic / gbu57 /agm158atomic
     MaxRotation: 1.0
   - Position: [0.15, 1.72, -6.56]
     Rotation: [0.0, -0.04, 1.0]
     PartName: wb3
-    WeaponName: mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158
+    WeaponName: mk82_b2atomic/ gbu38 / gbu28 / agm154atomic / gbu57 /agm158atomic
     MaxRotation: -1.0
   LandingGear:
   - Position: [0.0, 2.96, 2.79]

@@ -1,6 +1,6 @@
 DisplayName:
-  DEFAULT: B-29 Atomic Superfortress
-  ja_jp: B-29 スーパーフォートレス
+  DEFAULT: B-29 Superfortress ☢
+  ja_jp: B-29 スーパーフォートレス ☢
 Category: W.A
 GlobalUnmountPos: [3.0, 2.0, -4.0]
 MaxFuel: 4800
@@ -214,12 +214,12 @@ Components:
   - Position: [0.98, 0.88, -12.3]
     Rotation: [0.0, 0.0, 1.0]
     PartName: wb0
-    WeaponName: 250kg / anm17allc
+    WeaponName: atombomb
     MaxRotation: 1.0
   - Position: [-0.98, 0.88, -12.3]
     Rotation: [0.0, 0.0, -1.0]
     PartName: wb1
-    WeaponName: 250kg / anm17allc
+    WeaponName: atombomb
     MaxRotation: 1.0
   LandingGear:
   - Position: [6.08, 1.52, -11.19]
